@@ -1,21 +1,29 @@
 body{
     margin:0;
     padding:0;
-    border:solid red 10px;
     font-family: Roboto;
 }
-header{
+header, #section1, #section2, #section3{
     align-items: center;
-    background: url('../img/cover-picture.jpg') no-repeat center center;
+    background: url('../img/') no-repeat center center;
+    background-color: #d8e9ef;
     background-size: cover;
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
 }
-
-.cover-introduction{
-    display: inline-block;
+.nav-bar{
+  display:flex;
+}
+#section1{
+  background-color: #4ea1d3;
+}
+#section2{
+  background-color: #e85a71;
+}
+#section3{
+  background-color: #454552;
 }
 
 .typed-cursor{
