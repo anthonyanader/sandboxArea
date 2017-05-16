@@ -2,28 +2,27 @@ body{
     margin:0;
     padding:0;
     font-family: Roboto;
+    background-color:#f5f5f5;
 }
-header, #section1, #section2, #section3{
+.nav-bar{
+  display:flex;
+  height: 100px;
+
+}
+/*Color Pallette
+*#d8e9ef
+*#4ea1d3
+*#e85a71
+*#454552
+*/
+header {
     align-items: center;
-    background: url('../img/') no-repeat center center;
-    background-color: #d8e9ef;
+    background: url('../img/cover-backdrop.png') no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-}
-.nav-bar{
-  display:flex;
-}
-#section1{
-  background-color: #4ea1d3;
-}
-#section2{
-  background-color: #e85a71;
-}
-#section3{
-  background-color: #454552;
 }
 
 .typed-cursor{
