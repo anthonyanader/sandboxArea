@@ -13,13 +13,22 @@ body {
     font-size: 3.2vw;
 }
 
-h1{
+h1 {
     font-size: 50px;
     color: #282828;
 }
 
 h2 {
     color: #282828;
+}
+
+nav #brand-name {
+    align-content: flex-start;
+
+}
+
+nav #nav-links {
+    list-style: none;
 }
 
 
