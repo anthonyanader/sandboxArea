@@ -1,6 +1,12 @@
 a {
     text-transform: none;
+    color: #
 }
+
+header {
+    background: ;
+}
+
 
 #wrapper {
     max-width: 100%;
@@ -11,8 +17,13 @@ a {
 
 #hero{
     max-width: 100%;
+    height: 100vh;
     padding: 1% 5%;
     text-align: center;
-    background: cyan;
+    background-image: url("../img/heroSplashHeader.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1024px 525px;
     margin: 0 auto;
 }
