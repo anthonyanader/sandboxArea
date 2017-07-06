@@ -1,3 +1,31 @@
+/*******************************************************************
+GENERAL
+*******************************************************************/
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0% 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*******************************************************************
+HEADING
+*******************************************************************/
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/*******************************************************************
+COLORS
+*******************************************************************/
 body {
     color: #444;
     background: #eee;
@@ -6,29 +34,21 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-header {
-    background: #aaa;
+a {
+    color: #4A4A4A;
 }
-
 nav {
-    background: #fff;
+    background: #a1a2a3;
 }
 
-nav a:visited{
+nav a:visited {
     color: #4A4A4A ;
 }
-a {
-    text-decoration: none;
-    color: #4A4A4A
+
+nav a.selected {
+    text-decoration: underline;
 }
 
-#wrapper {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0% 5%;
-}
-
-#logo {
-    text-align: center;
-    margin: 0;
+nav a:hover {
+    color: #fff;
 }
