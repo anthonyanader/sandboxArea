@@ -1,46 +1,34 @@
+body {
+    color: #444;
+    background: #eee;
+    font-family: Roboto;
+    font-size: 3.2vw;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background: #aaa;
+}
+
+nav {
+    background: #fff;
+}
+
+nav a:visited{
+    color: #4A4A4A ;
+}
 a {
     text-decoration: none;
     color: #4A4A4A
 }
 
-header {
-    background: ;
-}
-
-body {
-    color: #4A4A4A;
-    font-family: Roboto;
-    font-size: 3.2vw;
-}
-
-h1 {
-    font-size: 50px;
-    color: #282828;
-}
-
-h2 {
-    color: #282828;
-}
-
-nav {
-}
-
-nav a, nav a:visited, nav li {
-    color: #4A4A4A;
-    text-decoration: none;
-    list-style: none;
-}
-
 #wrapper {
-    max-width: 100%;
+    max-width: 940px;
     margin: 0 auto;
-    padding: 1% 5%;
-    background: orange;
+    padding: 0% 5%;
 }
 
-#hero{
-    max-width: 100%;
-    padding: 1% 5%;
+#logo {
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
 }
