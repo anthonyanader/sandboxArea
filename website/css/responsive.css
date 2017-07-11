@@ -36,6 +36,12 @@
     /*******************************************************************
     HEADER
     *******************************************************************/
+    header {
+        margin-top: -20px;
+        background-color: #a1a2a3;
+        border-bottom: 5px solid #282828;
+        margin-bottom: 60px;
+    }
     nav {
         background: none;
         float: right;
@@ -43,5 +49,21 @@
         margin-right: 5%;
         text-align: right;
         width: 45%;
+    }
+
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 0.825em;
+        margin-bottom: 20px;
     }
 }
